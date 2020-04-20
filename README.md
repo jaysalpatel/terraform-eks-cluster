@@ -5,9 +5,17 @@ Build a EKS cluster using Terraform
 
 
 
+###set to another git repo when git init
+delete git
+rm -rf .git
+##reset previous commits
+git reset --hard
+###Have trouble with pushing to Github repo
+###How to remove remote origin from Git repo
+git remote set-url origin git://new.url.here
 
-
-
+or remove it
+git remote remove origin
 
 ###Problems:
 Resources not being created with terraform scripts because of amazoneksclusterpolicy, amazonEKSWorkerNodePolicy, amazonAWSServicePolicy, AmazonEKS_CNI_policy not attached to the user
