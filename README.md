@@ -2,9 +2,9 @@ Build a EKS cluster using Terraform
 
 1. initialize the terraform workspace
 	terraform init 
+2. for outlining the state change
 	terraform plan
-
-2. provision the EKS cluster
+3. provision the EKS cluster
 	terraform apply
 
 
